@@ -1,0 +1,35 @@
+const id = [
+  { name: "mani", roll no:128625, Department: "EEE" },
+  { name: "Ari", roll no: 308554, Department: "mech" },
+  { name: "devi", roll no: 2074554, Department: "IT" }
+];
+
+
+
+
+/// for loop
+for (let i = 0; i <id.length; i++) {
+  console.log(id[i].name);
+}
+
+
+
+
+//for in loop
+
+for (let key in id) {
+  console.log(id[key].name);
+}
+
+
+
+// for of loop 
+for (let data of id) {
+  console.log(data.name);
+}
+
+
+// foreach  loop 
+id.forEach(data => {
+  console.log(data.name);
+});
