@@ -1,0 +1,28 @@
+{
+  "name": "MANIVENKATRAJ M",
+  "email": "manifun51@gmail.com",
+  "phone": "1234567890",
+  "address": "*********",
+  "Linkedin":"------------",
+  "github profile":"---------",
+
+  "education qualification": [
+    {
+      "Degree": "BE. EEE",
+      "institution": "Sri krishna college of technology - coimbatore",
+      "persentage": "81.5%",
+
+    },
+  ],
+
+  "skills": [
+    "JavaScript",
+    "html",
+    "c",
+    "autocad",
+    "photoshop",
+    "solidworks"
+    "css"
+    "c++"
+  ]
+}
