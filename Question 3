@@ -1,0 +1,33 @@
+document object : 
+                 Each HTML document that gets loaded into a window becomes a document object. 
+The document contains the contents of the page. Using document object, JavaScript can modify,
+add and delete the HTML elements, attributes CSS styles in the page The window object represents a 
+window/tab containing a DOM document where as document object is property of window object that
+points to the DOM document loaded in that window.
+
+
+
+
+Screen:
+         Screen is the window property that holds information of browser screen.
+ It refers to screen object associated with that window object.Used to display
+ screen width, height, colorDepth, pixelDepth etc Similar to document screen 
+ can be accessed either by window.screen or screen object directly. 
+ Screen object doesn't have any methods as in window and document objects.
+
+         
+
+Window Object:
+             The window object is the topmost object of the DOM hierarchy. It represents a browser
+ window or frame that displays the contents of the webpage. Whenever a window appears on the screen 
+ to display the contents of the document, the window object is created.The document object is your
+ html, aspx, php, or other document that will be loaded into the browser. The document actually gets
+ loaded inside the window object and has properties available to it like title, URL, cookie, etc.
+ What does this really mean? That means if you want to access a property for the window it is window.property,
+ if it is document it is window.document.property which is also available in short as document.property.
+
+
+
+                              Syntax:
+
+                                         window.property_name;
